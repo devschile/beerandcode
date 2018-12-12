@@ -1,0 +1,76 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-kerning: auto;
+}
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(black 15%, transparent 16%) 0 0,
+    radial-gradient(black 15%, transparent 16%) 8px 8px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+  background-color: #282828;
+  background-size: 16px 16px;
+  color: #ddd;
+  font-size: 1.1em;
+}
+
+body,
+code,
+pre {
+  font-family: Inconsolata, monospace;
+}
+
+code,
+h1,
+h2,
+h3,
+pre {
+  color: #fff;
+  font-weight: 400;
+}
+
+a {
+  color: #00C56A;
+}
+
+.text-center {
+  text-align:center;
+}
+
+main {
+  padding: 5em 1.5em;
+}
+
+h1,
+p {
+  margin: 0 0 2rem;
+}
+
+.title {
+  margin: 0 0 2rem;
+  font-size: 10em;
+  text-shadow: #000 0 0 10px;
+}
+
+.amp {
+  margin: 0 -1rem;
+}
+
+.code {
+  color: #00C56A;
+}
+
+.legend {
+  font-size: .8em;
+}
