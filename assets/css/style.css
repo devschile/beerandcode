@@ -22,21 +22,24 @@ body {
   background-color: #282828;
   background-size: 16px 16px;
   color: #ddd;
-  font-size: 1.1em;
+  font-size: 1.2em;
 }
 
 body,
 code,
 pre {
-  font-family: Inconsolata, monospace;
+  font-family: 'Inconsolata', monospace;
+  color: #fff;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
 }
 
 code,
-h1,
-h2,
-h3,
 pre {
-  color: #fff;
   font-weight: 400;
 }
 
@@ -49,7 +52,7 @@ a {
 }
 
 main {
-  padding: 5em 1.5em;
+  padding: 1em 1.5em;
 }
 
 h1,
@@ -63,14 +66,14 @@ p {
   text-shadow: #000 0 0 10px;
 }
 
-.amp {
-  margin: 0 -1rem;
-}
-
 .code {
   color: #00C56A;
 }
 
 .legend {
   font-size: .8em;
+}
+
+.text {
+  margin-top: 2rem;
 }
